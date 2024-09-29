@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Employee</title>
+</head>
+<body>
+    <form action="/editemployee/<%=employee._id%>" method="PUT">
+        <h1>Add Employee</h1>
+        <input type="text" name="EmployeeName" placeholder="Enter Employee Name" required><br>
+        <input type="text" name="EmployeeDesignation" placeholder="Enter Employee's Designation" required><br>
+        <input type="text" name="EmployeeLocation" placeholder="Enter Employee's Location" required><br>
+        <input type="text" name="Salary" placeholder="Enter Employee's Salary" required><br>
+    </form>
+</body>
+</html>

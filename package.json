@@ -1,0 +1,30 @@
+{
+  "name": "employee-app",
+  "version": "1.0.0",
+  "description": "This project is an employee management system designed to manage employee recods.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjaypp/employee-app.git"
+  },
+  "keywords": [
+    "employee"
+  ],
+  "author": "Anjay P.P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjaypp/employee-app/issues"
+  },
+  "homepage": "https://github.com/anjaypp/employee-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "morgan": "^1.10.0"
+  }
+}
